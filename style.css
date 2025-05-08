@@ -1,0 +1,47 @@
+body{
+    background-image: url('./9d45077e-89e9-4629-ae15-f19e2c995710.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+.container {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    padding: 50px;
+    text-align: center;
+
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+#cityInput{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+#searchBtn {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+#temperature, #description {
+    font-size: 30px;
+}
